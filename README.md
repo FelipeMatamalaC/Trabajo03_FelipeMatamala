@@ -7,6 +7,7 @@ App diseñada sobre IOnic, con la finalidad de compartir viajes para habitantes 
 * Integrar VSCode con GitHub, finalmente se sube el código mediante GitHub Desktop.
 * Probar la compatibilidad entre Navegadores y desde mi red local, con dispositivos moviles.
 * Rediseño de algunas interfaces, respecto a los componentes disponibles en IOnic.
+* Se evita el uso de carácteres extraños y tildes, tanto en nombres de archivo como contenido, para evitar problemas de compilacion.
 
 
 ## Construido con
