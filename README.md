@@ -3,10 +3,10 @@
 App diseñada sobre IOnic, con la finalidad de compartir viajes para habitantes de comunidades rurales, permitiendo llevar a tantas personas como capacidad de pasajeros disponibles tenga el vehiculo.
 
 ## Dificultades Enfrentadas
-Aprender la lógica de IOnic desde cero.
-Integrar VSCode con GitHub, finalmente se sube el código mediante GitHub Desktop.
-Probar la compatibilidad entre Navegadores y desde mi red local, con dispositivos moviles.
-Rediseño de algunas interfaces, respecto a los componentes disponibles en IOnic.
+* Aprender la lógica de IOnic desde cero.
+* Integrar VSCode con GitHub, finalmente se sube el código mediante GitHub Desktop.
+* Probar la compatibilidad entre Navegadores y desde mi red local, con dispositivos moviles.
+* Rediseño de algunas interfaces, respecto a los componentes disponibles en IOnic.
 
 
 ## Construido con
