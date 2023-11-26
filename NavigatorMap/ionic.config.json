@@ -1,0 +1,7 @@
+{
+  "name": "NavigatorMap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

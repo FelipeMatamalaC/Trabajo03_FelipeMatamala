@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Perfil de Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">perfil_usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.es%2Ficonos-gratis%2Fpersonas&psig=AOvVaw3VwFpmnelZRYUVObsIj1nE&ust=1701061950422000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKikidzz4IIDFQAAAAAdAAAAABAE">
+      </ion-avatar>
+      <ion-label>
+        <h2>Nombre de Usuario</h2>
+        <p>Email</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="person-circle" slot="start"></ion-icon>
+      <ion-label>Editar Perfil</ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-icon name="settings" slot="start"></ion-icon>
+      <ion-label>Ajustes</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="time" slot="start"></ion-icon>
+      <ion-label>Historial de Viajes</ion-label>
+    </ion-item>
+
+
+  </ion-list>
+  <ion-button>
+    <ion-icon name="log-out" slot="start"></ion-icon>
+    <ion-label>Cerrar Sesión</ion-label>
+  </ion-button>
+</ion-content>

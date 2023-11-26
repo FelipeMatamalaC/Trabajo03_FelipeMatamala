@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Informacion en Tiempo Real</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">informacion_tiempo_real</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Estado Actual del Tráfico</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div>
+        <!-- Mostrar datos del tráfico aquí -->
+        <p>Mapa</p>
+      </div>
+      <ng-template #loading>
+        <ion-spinner></ion-spinner> Cargando...
+      </ng-template>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

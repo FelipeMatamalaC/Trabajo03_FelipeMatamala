@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Compartir Viaje</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Publicar un Nuevo Viaje</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Origen</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Destino</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Fecha y Hora</ion-label>
+        <ion-datetime displayFormat="DD MMM YYYY HH:mm"></ion-datetime>
+      </ion-item>
+      <ion-button expand="block">Publicar Viaje</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-list-header>
+      Viajes Disponibles
+    </ion-list-header>
+    <!-- Iterar sobre una lista de viajes disponibles -->
+    <ion-item>
+      <ion-label>
+        <h2>Origen - Destino</h2>
+        <p>"02 ENE 2023 12:30"</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Origen - Destino</h2>
+        <p>"01 MAY 2023 16:30"</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Origen - Destino</h2>
+        <p>"18 SEP 2023 11:30"</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Origen - Destino</h2>
+        <p>"19 SEP 2023 12:30"</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Origen - Destino</h2>
+        <p>"22 OCT 2023 21:45"</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
